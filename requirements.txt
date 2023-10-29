@@ -1,5 +1,4 @@
 pandas
-matplotlib.pyplot
 seaborn
 numpy
 format_currency
