@@ -7,7 +7,7 @@ import plotly.express as px
 
 st.set_page_config(layout="wide", initial_sidebar_state="expanded", page_title="Abie Dashboard Shopee", page_icon="📊")
 
-df = pd.read_csv(r'D:\abie\Coding\Analisis Data - Dicoding\all_data.csv')
+df = pd.read_csv('all_data.csv')
 
 def create_daily_orders_df(df):
     daily_orders_df = df.groupby('order_date').agg({
