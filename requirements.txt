@@ -3,3 +3,4 @@ seaborn
 numpy
 plotly
 streamlit
+babel
