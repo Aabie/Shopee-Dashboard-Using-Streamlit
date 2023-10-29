@@ -1,6 +1,5 @@
 pandas
 seaborn
 numpy
-format_currency
 plotly
 streamlit
